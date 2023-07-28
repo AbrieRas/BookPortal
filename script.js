@@ -33,7 +33,7 @@ const localUpdate = () => {
 };
 
 const serverGet = () => {
-    const url = 'https://test-repo-1-blue.vercel.app/items';
+    const url = 'https://shiny-glorious-squirrel.glitch.me/items';
 
     fetch(url)
         .then(response => response.json())
@@ -46,7 +46,7 @@ const serverGet = () => {
 };
 
 const serverUpdate = () => {
-    const url = 'https://test-repo-1-blue.vercel.app/items/1';
+    const url = 'https://shiny-glorious-squirrel.glitch.me/items/1';
     const params = { name: 'New Item 1' };
     const method = {
         method: 'PUT',
